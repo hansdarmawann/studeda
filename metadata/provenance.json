@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "name": "Predict Students' Dropout and Academic Success",
+    "uci_id": 697,
+    "doi": "10.24432/C5MC89",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "uci_last_updated": "Mon Feb 26 2024",
+    "citation": "If you use this dataset in experiments for a scientific publication, please kindly cite our paper: \nM.V.Martins, D. Tolledo, J. Machado, L. M.T. Baptista, V.Realinho. (2021) \"Early prediction of student’s performance in higher education: a case study\" Trends and Applications in Information Systems and Technologies, vol.1, in Advances in Intelligent Systems and Computing series. Springer. DOI: 10.1007/978-3-030-72657-7_16",
+    "expected": {
+      "rows": 4424,
+      "features": 36,
+      "target": "Target",
+      "stated_missing_values": "no"
+    }
+  },
+  "official_source": {
+    "page_url": "https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success",
+    "api_url": "https://archive.ics.uci.edu/api/dataset?id=697",
+    "archive_url": "https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip",
+    "archive_member": "data.csv",
+    "archive_members": "data.csv",
+    "archive_url_note": "Built from the repository_url slug returned by the UCI API; the download returned the CSV member compared below.",
+    "verification_retrieved_at_utc": "2026-10-16T09:38:40Z",
+    "official_csv_sha256": "3EF126DE5CEFFF26EB11FBB4237F1A1401CB64B488E2F1D598C23CEDEB4C45AE"
+  },
+  "local_source": {
+    "path": "data.csv",
+    "sha256": "3EF126DE5CEFFF26EB11FBB4237F1A1401CB64B488E2F1D598C23CEDEB4C45AE",
+    "bytes": 533230,
+    "has_utf8_bom": true,
+    "line_ending": "CRLF",
+    "header_has_tab": true,
+    "note": "Pre-existing tracked file. No claim is made about when it was originally retrieved."
+  },
+  "comparison": {
+    "raw_sha256_equal": true,
+    "method": "SHA-256 of raw bytes",
+    "outcome": "identical"
+  },
+  "observed": {
+    "rows": 4424,
+    "columns": 37,
+    "features": 36,
+    "missing_cells": 0,
+    "delimiter": ";",
+    "target_levels": ["Dropout", "Enrolled", "Graduate"]
+  },
+  "r_version": "R version 4.6.1 (2026-06-24 ucrt)"
+}
