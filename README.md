@@ -2,7 +2,10 @@
 
 Reproducible R/Quarto exploratory analysis of the UCI dataset "Predict Students' Dropout and Academic Success".
 
+Sources:
 https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+https://viniciusarz.medium.com/6-phases-of-data-analytics-projects-googles-methodology-f8caa09c9929
+https://www.ibm.com/think/topics/data-wrangling
 
 ## Setup and reproduction
 
