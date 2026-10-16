@@ -1,0 +1,33 @@
+# Local AI execution instructions and isolated task checkouts
+/.local/eda-instructions/
+/.worktrees/
+
+# R sessions, IDE state, secrets, and local dependency libraries
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Renviron.*
+/renv/library/
+/renv/staging/
+/renv/cache/
+/renv/python/
+
+# Reproducible downloads, intermediate data, and generated evidence
+/data/raw-downloads/
+/data/interim/
+/data/processed/
+/outputs/tables/
+/outputs/figures/
+/outputs/logs/
+
+# Quarto output and caches
+/.quarto/
+/_site/
+/reports/*_cache/
+/reports/*_files/
+/reports/*.html
+
+# Keep README.md, analytical Markdown, renv.lock, renv/activate.R,
+# metadata, scripts, report sources, and the existing root data.csv tracked.

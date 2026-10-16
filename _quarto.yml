@@ -1,0 +1,18 @@
+project:
+  type: default
+  output-dir: _site
+  render:
+    - reports/eda.qmd
+
+lang: en
+
+format:
+  html:
+    toc: true
+    embed-resources: true
+    code-fold: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
